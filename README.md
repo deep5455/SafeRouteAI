@@ -1,18 +1,26 @@
-# SafeRoute AI 🚨
+# 🚨 SafeRoute AI
 
-A serverless emergency alert web application built using AWS Cloud.
+SafeRoute AI is a serverless emergency alert web application built using AWS Cloud services. It allows users to send an emergency SOS with their live location, stores the incident in Amazon DynamoDB, and sends an instant email alert using Amazon SNS.
 
-## Features
+## 🌐 Live Demo
 
-- Get current user location
-- Send emergency SOS alert
-- Store incident details in Amazon DynamoDB
-- Send real-time email alerts using Amazon SNS
-- Serverless backend with AWS Lambda
-- REST API using Amazon API Gateway
-- Live frontend hosted with GitHub Pages
+https://deep5455.github.io/SafeRouteAI/
 
-## Tech Stack
+---
+
+## ✨ Features
+
+- 📍 Get Current Location
+- 🚨 Send Emergency SOS
+- ☁️ AWS Lambda Backend
+- 🌐 Amazon API Gateway
+- 🗄️ Amazon DynamoDB Storage
+- 📧 Amazon SNS Email Alerts
+- 💻 GitHub Pages Deployment
+
+---
+
+## 🛠️ Tech Stack
 
 - HTML
 - CSS
@@ -22,22 +30,39 @@ A serverless emergency alert web application built using AWS Cloud.
 - Amazon DynamoDB
 - Amazon SNS
 - Git
+- GitHub
 - GitHub Pages
 
-## Project Workflow
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+![Home](images/home.png)
+
+### Email Alert
+
+![Email Alert](images/email-alert.png)
+
+### DynamoDB Record
+
+![DynamoDB](images/dynamodb.png)
+
+---
+
+## 🔄 Project Workflow
 
 1. User enters Name, Phone Number and Emergency Message.
 2. User clicks *Get Current Location*.
-3. User clicks *SEND SOS*.
+3. User clicks *Send SOS*.
 4. API Gateway sends the request to AWS Lambda.
-5. Lambda stores the incident in DynamoDB.
+5. Lambda stores the incident in Amazon DynamoDB.
 6. Lambda publishes an alert to Amazon SNS.
-7. Subscriber receives an emergency email.
+7. User receives an emergency email alert.
 
-## Live Demo
+---
 
-https://deep5455.github.io/SafeRouteAI/
+## 👨‍💻 Author
 
-## Author
-
-Deep
+Deepak Thakur
