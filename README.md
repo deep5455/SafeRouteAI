@@ -39,15 +39,15 @@ https://deep5455.github.io/SafeRouteAI/
 
 ### Home Page
 
-![Home](images/home.png)
+![Home](image/home.png)
 
 ### Email Alert
 
-![Email Alert](images/email-alert.png)
+![Email Alert](image/email-alert.png)
 
 ### DynamoDB Record
 
-![DynamoDB](images/dynamodb.png)
+![DynamoDB](image/dynamodb.png)
 
 ---
 
